@@ -1,0 +1,308 @@
+[2025-09-09 23:13:23,458: INFO : main: Welcome to custom logger DS]
+[2025-09-09 23:13:23,459: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-09 23:13:23,461: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:13:23,462: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:13:23,464: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:13:23,465: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:13:23,465: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:13:23,466: ERROR : main: "'ConfigBox' object has no attribute 'source_url'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 12, in <module>
+    obj.initiate_Data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_ingestion_pipeline.py", line 14, in initiate_Data_ingestion
+    data_ingestion_config=config.get_data_ingestion_config()
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\config\configuration.py", line 23, in get_data_ingestion_config
+    source_url=config.source_url,
+               ^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'"
+[2025-09-09 23:13:40,377: INFO : main: Welcome to custom logger DS]
+[2025-09-09 23:13:40,377: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-09 23:13:40,379: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:13:40,380: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:13:40,380: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:13:40,381: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:13:40,381: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-09 23:13:41,339: INFO : data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E751:394C7E:9119E:BB4EE:68C0E65A
+Accept-Ranges: bytes
+Date: Wed, 10 Sep 2025 03:13:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-yyz4577-YYZ
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1757474021.211756,VS0,VE34
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 856774439d48f9c8562451cf78e1ce7aedc26f34
+Expires: Wed, 10 Sep 2025 03:18:41 GMT
+Source-Age: 0
+
+]
+[2025-09-09 23:13:41,354: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-09 23:40:46,325: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:40:46,327: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:40:46,330: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:40:46,332: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:40:46,334: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:41:11,069: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:41:11,071: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:41:11,075: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:41:11,077: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:41:11,078: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:41:39,913: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:41:39,914: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:41:39,917: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:41:39,919: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:41:39,920: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:41:59,140: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:41:59,142: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:41:59,144: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:41:59,145: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:41:59,146: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:42:21,620: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:42:21,622: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:42:21,625: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:42:21,627: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:42:21,629: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:42:49,580: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:42:49,582: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:42:49,585: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:42:49,587: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:42:49,588: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:44:00,065: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:44:00,067: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:44:00,069: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:44:00,071: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:44:00,073: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:44:42,414: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:44:42,416: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:44:42,419: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:44:42,420: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:44:42,421: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:45:10,147: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:45:10,149: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:45:10,152: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:45:10,154: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:45:10,155: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:45:27,740: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:45:27,741: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:45:27,745: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:45:27,746: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:45:27,747: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-09 23:57:16,504: INFO : main: Welcome to custom logger DS]
+[2025-09-09 23:57:16,505: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-09 23:57:16,506: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:57:16,507: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:57:16,508: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:57:16,509: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:57:16,509: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-09 23:57:16,509: INFO : data_ingestion: File already exists]
+[2025-09-09 23:57:16,512: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-09 23:57:16,512: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-09 23:57:16,514: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:57:16,515: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:57:16,517: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:57:16,518: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:57:16,519: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-09 23:57:16,519: ERROR : main: 'DataIngestionConfig' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 24, in <module>
+    obj.initiate_Data_Validation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_validation_pipeline.py", line 16, in initiate_Data_Validation
+    data_validation.validate_all_columns()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\components\data_validation.py", line 11, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'unzip_data_dir'
+[2025-09-09 23:58:14,210: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-09 23:58:14,212: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-09 23:58:14,215: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-09 23:58:14,217: INFO : common: created directory at path :artifacts]
+[2025-09-09 23:58:14,219: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-10 00:00:11,768: INFO : main: Welcome to custom logger DS]
+[2025-09-10 00:00:11,768: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:00:11,769: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:00:11,770: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:00:11,772: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:00:11,772: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:00:11,772: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:00:11,773: INFO : data_ingestion: File already exists]
+[2025-09-10 00:00:11,775: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-10 00:00:11,775: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:00:11,777: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:00:11,778: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:00:11,780: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:00:11,781: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:00:11,781: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:00:11,781: ERROR : main: 'DataIngestionConfig' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 24, in <module>
+    obj.initiate_Data_Validation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_validation_pipeline.py", line 16, in initiate_Data_Validation
+    data_validation.validate_all_columns()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\components\data_validation.py", line 11, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'unzip_data_dir'
+[2025-09-10 00:02:28,912: INFO : main: Welcome to custom logger DS]
+[2025-09-10 00:02:28,912: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:02:28,914: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:02:28,915: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:02:28,917: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:02:28,917: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:02:28,917: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:02:28,918: INFO : data_ingestion: File already exists]
+[2025-09-10 00:02:28,920: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-10 00:02:28,921: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:02:28,922: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:02:28,923: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:02:28,925: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:02:28,926: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:02:28,926: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:02:28,926: ERROR : main: 'DataIngestionConfig' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 24, in <module>
+    obj.initiate_Data_Validation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_validation_pipeline.py", line 16, in initiate_Data_Validation
+    data_validation.validate_all_columns()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\components\data_validation.py", line 11, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'unzip_data_dir'
+[2025-09-10 00:04:07,696: INFO : main: Welcome to custom logger DS]
+[2025-09-10 00:04:07,697: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:04:07,699: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:04:07,700: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:04:07,702: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:04:07,704: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:04:07,705: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:04:07,705: INFO : data_ingestion: File already exists]
+[2025-09-10 00:04:07,709: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-10 00:04:07,709: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:04:07,712: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:04:07,713: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:04:07,715: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:04:07,717: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:04:07,718: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:04:07,719: ERROR : main: 'DataIngestionConfig' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 24, in <module>
+    obj.initiate_Data_Validation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_validation_pipeline.py", line 16, in initiate_Data_Validation
+    data_validation.validate_all_columns()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\components\data_validation.py", line 11, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'unzip_data_dir'
+[2025-09-10 00:07:22,119: INFO : main: Welcome to custom logger DS]
+[2025-09-10 00:07:22,119: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:07:22,121: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:07:22,121: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:07:22,123: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:07:22,124: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:07:22,124: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:07:22,124: INFO : data_ingestion: File already exists]
+[2025-09-10 00:07:22,127: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-10 00:07:22,127: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:07:22,129: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:07:22,130: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:07:22,132: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:07:22,132: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:07:22,133: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:07:22,133: ERROR : main: 'DataIngestionConfig' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 24, in <module>
+    obj.initiate_Data_Validation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_validation_pipeline.py", line 16, in initiate_Data_Validation
+    data_validation.validate_all_columns()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\components\data_validation.py", line 29, in validate_all_columns
+    raise e
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\components\data_validation.py", line 12, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'unzip_data_dir'
+[2025-09-10 00:08:18,599: INFO : main: Welcome to custom logger DS]
+[2025-09-10 00:08:18,600: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:08:18,602: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:08:18,603: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:08:18,605: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:08:18,606: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:08:18,606: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-10 00:08:18,607: INFO : data_ingestion: File already exists]
+[2025-09-10 00:08:18,611: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-10 00:08:18,612: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-10 00:08:18,615: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-10 00:08:18,616: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-10 00:08:18,620: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-10 00:08:18,621: INFO : common: created directory at path :artifacts]
+[2025-09-10 00:08:18,623: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-10 00:08:18,665: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
