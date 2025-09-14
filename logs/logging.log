@@ -306,3 +306,501 @@ AttributeError: 'DataIngestionConfig' object has no attribute 'unzip_data_dir'
 [2025-09-10 00:08:18,621: INFO : common: created directory at path :artifacts]
 [2025-09-10 00:08:18,623: INFO : common: created directory at path :artifacts/data_validation]
 [2025-09-10 00:08:18,665: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-12 21:01:01,676: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-12 21:01:01,687: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-12 21:01:01,700: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-12 21:01:01,702: INFO : common: created directory at path :artifacts]
+[2025-09-12 21:01:01,704: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-12 21:01:01,722: ERROR : 980687175: [Errno 13] Permission denied: 'artifacts\\data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_24416\980687175.py", line 5, in <module>
+    data_transformation.train_test_data_splitting()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_24416\45674994.py", line 8, in train_test_data_splitting
+    train.to_csv(self.config.root_dir ,"train.csv", index=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_transformation'
+[2025-09-12 21:02:11,058: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-12 21:02:11,061: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-12 21:02:11,064: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-12 21:02:11,066: INFO : common: created directory at path :artifacts]
+[2025-09-12 21:02:11,068: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-12 21:02:11,076: ERROR : 980687175: [Errno 13] Permission denied: 'artifacts\\data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_24416\980687175.py", line 5, in <module>
+    data_transformation.train_test_data_splitting()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_24416\45674994.py", line 8, in train_test_data_splitting
+    train.to_csv(self.config.root_dir ,"train.csv", index=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_transformation'
+[2025-09-12 21:05:06,146: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-12 21:05:06,149: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-12 21:05:06,153: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-12 21:05:06,155: INFO : common: created directory at path :artifacts]
+[2025-09-12 21:05:06,157: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-12 21:05:06,169: ERROR : 980687175: [Errno 13] Permission denied: 'artifacts\\data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\980687175.py", line 5, in <module>
+    data_transformation.train_test_data_splitting()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\45674994.py", line 8, in train_test_data_splitting
+    train.to_csv(self.config.root_dir ,"train.csv", index=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_transformation'
+[2025-09-12 21:05:36,023: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-12 21:05:36,026: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-12 21:05:36,031: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-12 21:05:36,034: INFO : common: created directory at path :artifacts]
+[2025-09-12 21:05:36,035: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-12 21:05:36,047: ERROR : 980687175: [Errno 13] Permission denied: 'artifacts\\data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\980687175.py", line 5, in <module>
+    data_transformation.train_test_data_splitting()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\45674994.py", line 8, in train_test_data_splitting
+    train.to_csv(self.config.root_dir ,"train.csv", index=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_transformation'
+[2025-09-12 21:06:46,087: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-12 21:06:46,089: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-12 21:06:46,092: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-12 21:06:46,094: INFO : common: created directory at path :artifacts]
+[2025-09-12 21:06:46,095: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-12 21:06:46,102: ERROR : 980687175: [Errno 13] Permission denied: 'artifacts\\data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\980687175.py", line 5, in <module>
+    data_transformation.train_test_data_splitting()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\45674994.py", line 8, in train_test_data_splitting
+    train.to_csv(self.config.root_dir ,"train.csv", index=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_transformation'
+[2025-09-12 21:08:19,767: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-12 21:08:19,771: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-12 21:08:19,777: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-12 21:08:19,778: INFO : common: created directory at path :artifacts]
+[2025-09-12 21:08:19,780: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-12 21:08:19,792: ERROR : 980687175: [Errno 13] Permission denied: 'artifacts\\data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\980687175.py", line 5, in <module>
+    data_transformation.train_test_data_splitting()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_6860\45674994.py", line 8, in train_test_data_splitting
+    train.to_csv(self.config.root_dir ,"train.csv", index=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'artifacts\\data_transformation'
+[2025-09-12 21:09:00,179: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-12 21:09:00,181: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-12 21:09:00,183: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-12 21:09:00,185: INFO : common: created directory at path :artifacts]
+[2025-09-12 21:09:00,187: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-12 21:09:00,212: INFO : 2134617499: Train and Test data saved in artifacts\data_transformation]
+[2025-09-12 21:09:00,213: INFO : 2134617499: (1279, 12)]
+[2025-09-12 21:09:00,214: INFO : 2134617499: (320, 12)]
+[2025-09-13 21:49:20,186: INFO : main: Welcome to custom logger DS]
+[2025-09-13 21:49:20,186: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:49:20,194: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:49:20,201: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:49:20,210: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:49:20,211: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:49:20,211: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 21:49:20,211: INFO : data_ingestion: File already exists]
+[2025-09-13 21:49:20,224: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 21:49:20,224: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:49:20,225: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:49:20,226: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:49:20,228: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:49:20,229: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:49:20,229: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 21:49:20,247: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 21:49:20,247: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:49:20,247: ERROR : main: [Errno 2] No such file or directory: 'artifacts\\data_validation\\STATUS_FILE']
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 34, in <module>
+    obj.initiate_Data_Transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 23, in initiate_Data_Transformation
+    raise e
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 13, in initiate_Data_Transformation
+    with open(Path("artifacts/data_validation/STATUS_FILE"), 'r') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_validation\\STATUS_FILE'
+[2025-09-13 21:50:18,236: INFO : main: Welcome to custom logger DS]
+[2025-09-13 21:50:18,236: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:50:18,238: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:50:18,239: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:50:18,241: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:50:18,241: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:50:18,242: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 21:50:18,242: INFO : data_ingestion: File already exists]
+[2025-09-13 21:50:18,244: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 21:50:18,244: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:50:18,246: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:50:18,246: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:50:18,248: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:50:18,249: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:50:18,249: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 21:50:18,271: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 21:50:18,271: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:50:18,281: ERROR : main: Data Validation Failed, Please check the logs]
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 34, in <module>
+    obj.initiate_Data_Transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 23, in initiate_Data_Transformation
+    raise e
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_Data_Transformation
+    raise Exception("Data Validation Failed, Please check the logs")
+Exception: Data Validation Failed, Please check the logs
+[2025-09-13 21:51:20,426: INFO : main: Welcome to custom logger DS]
+[2025-09-13 21:51:20,426: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:51:20,428: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:51:20,428: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:51:20,430: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:51:20,430: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:51:20,431: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 21:51:20,431: INFO : data_ingestion: File already exists]
+[2025-09-13 21:51:20,432: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 21:51:20,432: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:51:20,434: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:51:20,434: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:51:20,436: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:51:20,436: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:51:20,437: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 21:51:20,455: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 21:51:20,455: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:51:20,457: ERROR : main: Data Validation Failed, Please check the logs]
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 34, in <module>
+    obj.initiate_Data_Transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 23, in initiate_Data_Transformation
+    raise e
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_Data_Transformation
+    raise Exception("Data Validation Failed, Please check the logs")
+Exception: Data Validation Failed, Please check the logs
+[2025-09-13 21:52:18,878: INFO : main: Welcome to custom logger DS]
+[2025-09-13 21:52:18,878: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:52:18,880: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:52:18,881: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:52:18,882: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:52:18,883: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:52:18,883: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 21:52:18,883: INFO : data_ingestion: File already exists]
+[2025-09-13 21:52:18,885: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 21:52:18,885: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:52:18,887: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:52:18,887: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:52:18,889: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:52:18,889: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:52:18,890: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 21:52:18,909: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 21:52:18,909: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:52:18,911: ERROR : main: Data Validation Failed, Please check the logs]
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 34, in <module>
+    obj.initiate_Data_Transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 23, in initiate_Data_Transformation
+    raise e
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_Data_Transformation
+    raise Exception("Data Validation Failed, Please check the logs")
+Exception: Data Validation Failed, Please check the logs
+[2025-09-13 21:53:32,673: INFO : main: Welcome to custom logger DS]
+[2025-09-13 21:53:32,674: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:53:32,675: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:53:32,676: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:53:32,678: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:53:32,678: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:53:32,679: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 21:53:33,364: INFO : data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E118:159395:A9ECDF:DB7826:68C6201C
+Accept-Ranges: bytes
+Date: Sun, 14 Sep 2025 01:53:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-yyz4525-YYZ
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1757814813.582108,VS0,VE55
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1f3401f29ec0fadd76198b7e9b39e46fb0b6ec16
+Expires: Sun, 14 Sep 2025 01:58:32 GMT
+Source-Age: 0
+
+]
+[2025-09-13 21:53:33,376: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 21:53:33,376: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:53:33,378: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:53:33,379: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:53:33,381: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:53:33,382: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:53:33,382: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 21:53:33,399: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 21:53:33,400: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:53:33,401: ERROR : main: Data Validation Failed, Please check the logs]
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 34, in <module>
+    obj.initiate_Data_Transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 23, in initiate_Data_Transformation
+    raise e
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_Data_Transformation
+    raise Exception("Data Validation Failed, Please check the logs")
+Exception: Data Validation Failed, Please check the logs
+[2025-09-13 21:55:17,205: INFO : main: Welcome to custom logger DS]
+[2025-09-13 21:55:17,206: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:55:17,207: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:55:17,208: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:55:17,209: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:55:17,210: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:55:17,210: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 21:55:17,211: INFO : data_ingestion: File already exists]
+[2025-09-13 21:55:17,212: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 21:55:17,212: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:55:17,214: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 21:55:17,215: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 21:55:17,216: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 21:55:17,217: INFO : common: created directory at path :artifacts]
+[2025-09-13 21:55:17,217: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 21:55:17,235: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 21:55:17,235: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 21:55:17,236: ERROR : main: Data Validation Failed, Please check the logs]
+Traceback (most recent call last):
+  File "D:\DE\ML OPs\DSusingMLOps\main.py", line 34, in <module>
+    obj.initiate_Data_Transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 23, in initiate_Data_Transformation
+    raise e
+  File "D:\DE\ML OPs\DSusingMLOps\src\datascience\pipeline\data_transformation_pipeline.py", line 21, in initiate_Data_Transformation
+    raise Exception("Data Validation Failed, Please check the logs")
+Exception: Data Validation Failed, Please check the logs
+[2025-09-13 22:01:15,253: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:01:15,254: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:01:15,257: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:01:15,259: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:01:15,260: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-13 22:01:52,355: INFO : main: Welcome to custom logger DS]
+[2025-09-13 22:01:52,355: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 22:01:52,357: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:01:52,357: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:01:52,359: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:01:52,359: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:01:52,359: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 22:01:52,360: INFO : data_ingestion: File already exists]
+[2025-09-13 22:01:52,361: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 22:01:52,361: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 22:01:52,363: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:01:52,363: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:01:52,366: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:01:52,366: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:01:52,366: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 22:01:52,384: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 22:01:52,384: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 22:01:52,387: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:01:52,388: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:01:52,390: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:01:52,391: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:01:52,391: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-13 22:01:52,418: INFO : data_transformation: Train and Test data saved in artifacts\data_transformation]
+[2025-09-13 22:01:52,418: INFO : data_transformation: (1279, 12)]
+[2025-09-13 22:01:52,419: INFO : data_transformation: (320, 12)]
+[2025-09-13 22:01:52,419: INFO : main: >>>>>> Stage Data Transformation Stage Completed  <<<<<<<]
