@@ -15,3 +15,9 @@ data_validation :
 data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts/data_ingestion/data/winequality-red.csv
+
+model_tainer:
+  root_dir: artifacts/model_trainer
+  model_name: model.joblib
+  train_date_path: artifacts/data_transformation/train.csv
+  test_data_path: artifacts/data_transformation/test.csv

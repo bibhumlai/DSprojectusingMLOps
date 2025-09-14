@@ -804,3 +804,199 @@ Exception: Data Validation Failed, Please check the logs
 [2025-09-13 22:01:52,418: INFO : data_transformation: (1279, 12)]
 [2025-09-13 22:01:52,419: INFO : data_transformation: (320, 12)]
 [2025-09-13 22:01:52,419: INFO : main: >>>>>> Stage Data Transformation Stage Completed  <<<<<<<]
+[2025-09-13 22:39:18,439: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:39:18,441: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:39:18,443: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:39:18,445: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:39:18,446: ERROR : 1556057569: "'ConfigBox' object has no attribute 'target_column'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'target_column'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'target_column'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'target_column'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'target_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_18704\1556057569.py", line 3, in <module>
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_18704\959036332.py", line 20, in get_model_trainer_config
+    target_column=self.schema.target_column
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'target_column'"
+[2025-09-13 22:40:28,779: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:40:28,781: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:40:28,782: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:40:28,784: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:40:28,785: ERROR : 1556057569: "'ConfigBox' object has no attribute 'name'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_18704\1556057569.py", line 3, in <module>
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_18704\1500275497.py", line 21, in get_model_trainer_config
+    target_column=self.schema.name
+                  ^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'name'"
+[2025-09-13 22:42:58,389: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:42:58,391: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:42:58,393: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:42:58,394: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:42:58,395: INFO : 1523863267: Loading training and test data]
+[2025-09-13 22:42:58,419: INFO : 1523863267: Splitting features and target]
+[2025-09-13 22:42:58,427: ERROR : 1556057569: "['quantity'] not found in axis"]
+Traceback (most recent call last):
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_18704\1556057569.py", line 5, in <module>
+    model_trainer_instance.train_model()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bibhu\AppData\Local\Temp\ipykernel_18704\1523863267.py", line 11, in train_model
+    X_train = train_data.drop(columns=[self.config.target_column], axis=1)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\frame.py", line 5588, in drop
+    return super().drop(
+           ~~~~~~~~~~~~^
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    ...<5 lines>...
+        errors=errors,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 4807, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\generic.py", line 4849, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "d:\DE\ML OPs\DSusingMLOps\venv\Lib\site-packages\pandas\core\indexes\base.py", line 7136, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['quantity'] not found in axis"
+[2025-09-13 22:44:11,235: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 22:44:11,237: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 22:44:11,240: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 22:44:11,242: INFO : common: created directory at path :artifacts]
+[2025-09-13 22:44:11,243: INFO : 1523863267: Loading training and test data]
+[2025-09-13 22:44:11,250: INFO : 1523863267: Splitting features and target]
+[2025-09-13 22:44:11,254: INFO : 1523863267: Training the model]
+[2025-09-13 22:44:11,258: INFO : 1523863267: Saving the model]
+[2025-09-13 22:44:11,260: INFO : 1523863267: Model saved at artifacts\model_trainer\model.joblib]
+[2025-09-13 22:44:11,261: INFO : 1556057569: Model training completed successfully.]
+[2025-09-13 23:14:15,514: INFO : main: Welcome to custom logger DS]
+[2025-09-13 23:14:15,514: INFO : main: >>>>>>>>>>>>>>> Stage Data Ingestion Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 23:14:15,516: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 23:14:15,517: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 23:14:15,519: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 23:14:15,519: INFO : common: created directory at path :artifacts]
+[2025-09-13 23:14:15,520: INFO : common: created directory at path :artifacts/data_ingestion]
+[2025-09-13 23:14:15,520: INFO : data_ingestion: File already exists]
+[2025-09-13 23:14:15,521: INFO : main: >>>>>> Stage Data Ingestion Stage Completed  <<<<<<<]
+[2025-09-13 23:14:15,521: INFO : main: >>>>>>>>>>>>>>> Stage Data Validation  Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 23:14:15,523: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 23:14:15,524: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 23:14:15,526: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 23:14:15,526: INFO : common: created directory at path :artifacts]
+[2025-09-13 23:14:15,526: INFO : common: created directory at path :artifacts/data_validation]
+[2025-09-13 23:14:15,545: INFO : main: >>>>>> Stage Data Validation  Stage Completed  <<<<<<<]
+[2025-09-13 23:14:15,545: INFO : main: >>>>>>>>>>>>>>> Stage Data Transformation Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 23:14:15,548: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 23:14:15,549: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 23:14:15,551: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 23:14:15,551: INFO : common: created directory at path :artifacts]
+[2025-09-13 23:14:15,552: INFO : common: created directory at path :artifacts/data_transformation]
+[2025-09-13 23:14:15,574: INFO : data_transformation: Train and Test data saved in artifacts\data_transformation]
+[2025-09-13 23:14:15,575: INFO : data_transformation: (1279, 12)]
+[2025-09-13 23:14:15,575: INFO : data_transformation: (320, 12)]
+[2025-09-13 23:14:15,575: INFO : main: >>>>>> Stage Data Transformation Stage Completed  <<<<<<<]
+[2025-09-13 23:14:15,576: INFO : main: >>>>>>>>>>>>>>> Stage Model Training Stage Started  <<<<<<<<<<<<<]
+[2025-09-13 23:14:15,578: INFO : common: yaml file: config\config.yaml loaded sucessfully]
+[2025-09-13 23:14:15,579: INFO : common: yaml file: params.yaml loaded sucessfully]
+[2025-09-13 23:14:15,581: INFO : common: yaml file: schema.yaml loaded sucessfully]
+[2025-09-13 23:14:15,582: INFO : common: created directory at path :artifacts]
+[2025-09-13 23:14:15,582: INFO : model_train: Loading training and test data]
+[2025-09-13 23:14:15,608: INFO : model_train: Splitting features and target]
+[2025-09-13 23:14:15,610: INFO : model_train: Training the model]
+[2025-09-13 23:14:15,612: INFO : model_train: Saving the model]
+[2025-09-13 23:14:15,614: INFO : model_train: Model saved at artifacts\model_trainer\model.joblib]
+[2025-09-13 23:14:15,614: INFO : model_train: Model training completed successfully]
+[2025-09-13 23:14:15,615: INFO : main: >>>>>> Stage Model Training Stage Completed  <<<<<<<]

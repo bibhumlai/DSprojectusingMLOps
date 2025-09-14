@@ -23,7 +23,6 @@ class DataTransformation:
         logger.info(f"Train and Test data saved in {self.config.root_dir}")
         logger.info(train.shape)
         logger.info(test.shape)
-        print(train.shape
-                )
+        print(train.shape)
         print(test.shape)
         
