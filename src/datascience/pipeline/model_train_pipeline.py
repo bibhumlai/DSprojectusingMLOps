@@ -1,11 +1,10 @@
-
 from src.datascience.config.configuration import ConfigurationManager
 from src.datascience.components.model_train import model_trainer
 from src.datascience import logger
 from pathlib import Path
 
-STAGE_NAME="Model Training Stage"
-class ModelTrainingPipeline:
+STAGE_NAME="Model Trainer  Stage"
+class ModelTrainPipeline:
     def __init__(self):
         pass
 
@@ -28,7 +27,7 @@ if  __name__ == '__main__':
 
     try:
         logger.info(f">>>>>>>>>>>>>>> Stage {STAGE_NAME} Started  <<<<<<<<<<<<<")
-        obj = ModelTrainingPipeline()
+        obj = ModelTrainPipeline()
         obj.initiate_model_trainer()
         logger.info(f">>>>>> Stage {STAGE_NAME} Completed  <<<<<<<")
     except Exception as e:

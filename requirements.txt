@@ -12,3 +12,4 @@ joblib
 types-pyYAML
 FLASK
 FLASK-Cors
+dagshub 

@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/DE/ML%20OPs/DSusingMLOps/mlruns/0/02bba23fadb248a6ab0373afaf0b9bd2/artifacts
+end_time: 1757902514720
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 02bba23fadb248a6ab0373afaf0b9bd2
+run_name: clumsy-robin-346
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757902508740
+status: 3
+tags: []
+user_id: bibhu
