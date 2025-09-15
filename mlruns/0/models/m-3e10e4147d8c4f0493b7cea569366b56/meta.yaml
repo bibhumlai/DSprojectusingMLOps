@@ -1,0 +1,10 @@
+artifact_location: file:///d:/DE/ML%20OPs/DSusingMLOps/mlruns/0/models/m-3e10e4147d8c4f0493b7cea569366b56/artifacts
+creation_timestamp: 1757902368136
+experiment_id: '0'
+last_updated_timestamp: 1757902376549
+model_id: m-3e10e4147d8c4f0493b7cea569366b56
+model_type: null
+name: model
+source_run_id: aea29a1438834ff6b559a4593fc40988
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///d:/DE/ML%20OPs/DSusingMLOps/mlruns/0/5d68684c92274870a60ee29887b8353a/artifacts
+end_time: 1757821917881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d68684c92274870a60ee29887b8353a
+run_name: chill-mink-328
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757821917825
+status: 4
+tags: []
+user_id: bibhu
